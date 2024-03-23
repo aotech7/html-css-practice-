@@ -1,102 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title> Jubilee Austen | Portolio
-        </title>
-    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Galada&family=Inter+Tight:wght@300&family=Lora:wght@600&family=Martel+Sans:wght@800&family=Montserrat:wght@400;700&family=Rubik&family=Teko&display=swap" rel="stylesheet">"
-    <link href="css/main.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Galada&family=Inter+Tight:wght@300&family=Lora:wght@600&family=Martel+Sans:wght@800&family=Montserrat:wght@400;700&family=Rubik&family=Source+Serif+4:opsz,wght@8..60,700&family=Teko&display=swap"
-        rel="stylesheet">
+    <title> HOME PAGE </title>
+    <img src="images/justice.png" alt="Woman carrying scales of justice"
+    height="450px" width="650px"/>
+
+    <style>
+        h1 {
+            color: blue; font-size: 42px
+        }
+        h2{
+            color: green; font-size: 28px;
+        }
+        p { font-size: 30px}
+    </style>
 </head>
- 
 <body>
-<header class = "homepage-hero">
-    <div class = "content-wrapper"> 
-        <h1>Jubilee Austen</h1>
-        <nav>
-            <ul>
-            <li><a href = "#about">about</a></li>
-            <li><a href = "#skills">skills</a></li>
-            <li> <a href = "#contact"> contact</li></a></li>
-            </ul>
-        </nav>
+    <!-- This is a comment -->
+<div>
+    <h1> Welcome To
+        The Legaltech Job Finder-
+    <h2>Your #1 Job Resource in Legal tech</h2>
+<hr>
+</div>
+    <h1 id="#top">Apply Here</h1>
+    <p> Submit your resume to our job bank. Recruiters visit our site frequently and contact candidate for interviews. Also, by submitting your resume, you will be notified to register for our quarterly virtual job fair. </p>
+    <hr>
+    
+<h1>Explore Our Job bank</h1>
+<form name="login" action= "process-form.php" method= "get">
+    Username:
+    <input type="text" name="username">
+    <br>
+    Password:
+    <input type="password" name="password">
+    <br>
+    <input type="submit">
+    <br>
+    <br>
+    Top Jobs: 
+    <br>
+    <select name="jobs"> 
+        <option value="Privacy Attorney">Privacy Attorney</option>
+        <option value="Legal Engineer">Legal Engineer</option>
+        <option value="Legal Prompt Engineer">Legal Prompt Engineer</option>
+        <option value="Legal Tech Consultant">Legal Tech Consultant</option>
+        </select>
+        <br>
+        <br>
+        Comments:
+        <br>
+        <textarea name ="comments" rows= "10" cols="30"> </textarea>
+        <br>
+        <input type="checkbox" name="experience" value= "Entry level"> I have 0-3 years of experience
+        <input type="checkbox" name= "experience" value= "Mid-level"> I have 3-5 years of experience
+        <input type="checkbox"  name= "experience" value="Senior"> I have 5-10 years or more of experience"
+        <input type="submit">
 
     
-</header>
 
-<main>
-    
-    <section id="about" >
-        <div class= "content-wrapper"></div>
-    </section>
-    <section id="skills">
-        <h2>Developer Skills</h2>
-        <div class="skill-list">
-            <img src="img/html-icon.png" alt="html icon"> <h3>HTML & css</h3>
-            <p>I pride myself on my organized and well-formattedHTML and CSS. All my code is tested to ensure it's valid, accessible for all users, and works great on the major
-                browsers.</p>
-            </div>
-            <div class="skill-list">
-                <img src="img/pencil-icon.png" alt="JavaScript icon">
-                <h3>JavaScript</h3>
-                <p>JavaScript is my first love! I love to use it to bring websites to life. I'm familiar with several JavaScript frameworks and libraries, including React, Vue, and jQuery.</p>
-                <div class="skill-list">
-                    <img src="img/git-icon.png" alt="GitHub icon">
-                    <h3>Git & GitHub</h3>
-                    <p>I never work on a project without my best friends Git and GitHub! I can collaborate with your team on any codebase and
-                        adjust to your team's version control workflow.</div></p>
-                    </section>
-                </section id="contact">
-                <div class="content-wrapper"></div>
-                <h2> 
-                    Hi, I am a developer that loves clean and elegant code. 
-                </h2>
-                <h2>
-                    A little about me.
-                </h2>
-                <p>
-                    My tech journey started with a degree in journalism. I loved researching, writing, and sharing my voice online, but something felt missing. I wished for a way to share and display information exactly the way I wanted. That's when I
-                    discovered and fell in love with coding and web design!
-                </p>
-                <p>
-                    As a front end developer, I pride myself on writing code that's easy to read and build upon while still looking great. My goal with every site is to provide a top-of-the-line user experience. Besides web development, I enjoy gardening and spending time with my small (but growing!)  family.
-                </p>
-                
-            </main>
-            
-        <footer id ="contact">
-            <div class="content-wrapper">
-                <div class= "contact-image"> <img src="img/jess-bailey-q10VITrVYUM-unsplash.png" alt= "work desk with a keyboard, pen, glasses, and notebook"> </div>
-            
-            <div class="contact-info">
-            <h2>"Like What You See?"</h1>
-            <h3>Let's meet for a cup of coffee.</h3>
-            <a href="mailto: hi!jubileeausten.com"></a>
-            <h3>Or, follow me on social media.</h3>
-            <ul>
-                <li>
-            <a href="https.//twitter.com/home" target="_blank"><img src= "img/twitter.png" alt= "Twitter icon"></a>
-            </li>
-            <li><a href="https://www.facebook.com"target= "_blank"><img src="img/facebook.png" alt="Facebook icon"></a>
-            </li>
-            
-            <li><a href="https://www.instagram.com" target= "_blank"> <img src= "img/instagram.png" alt="Instagram icon"></a></li>
-            <li><a href="https://www.linkedin.com" target="_blank"><img src ="img/linkedin.png" alt= "Linkedin Icon"></a></li>
-            <li><a href="https://www.github.com" target="_blank"> <img src= "img/github.png" alt= "Github icon"></a> </li>
-            </ul>
-        </div>
 
-        </footer>    
-      
-    </body>
-    
-    </html>
-    
+    </select>
 
+</form>
+   
+
+    <hr>
+    <p>Check out our other pages: 
+   <!---a href is an attribute tells where link will go to "hypertext reference"--->
+
+    <h1> Job Postings <a href= "job-postings.html"></a></h1>
+    <br>
+    <p>This is our first paragraph</p>
+
+    <h1>Resume Upload <a href="upload.html"> here </a></h1>
+
+<h1> Other popular websites for legal jobs</h2>
+    <ul>
+        <p> <a href="https://www.indeed.com/"> Indeed</a></p>
+
+        </p>
+    </ul>
+    <h1>
+        Back home
+        <a href="index.html"> Home </a>
+        <p> <a href="#Top"> Top of page</a></p>
+    </h1>
     
+</body>
+
+</html>
