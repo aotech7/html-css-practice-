@@ -1,144 +1,63 @@
-/****** Global Styles ******/
+@charset "UTF-8";
+/* CSS Document */
 
-
+html,
 body {
-    font-family: 
-    'Source Sans Pro',sans-serif;
-    color: #5e5d5e;
+  margin: 0px;
+  background: url('../img/symphony.png') repeat;
+  /* Background image from http://subtlepatterns.com/ */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: DimGray;
 }
 
-.content-wrapper {
-width: 1200px; 
-margin: 0 auto;
-overflow: auto; 
+#wrapper {
+  margin-top: 150px;
 }
 
-/****** Header Styles ******/
-.homepage-hero {
-    background: url('../img/full-background.png'), #f9efef;
-    background-size:  cover;
-    background-position: center;
-    height: 800px; 
-}
-header h1 {
-    float: left;
-    width: 300px;
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    color: #7b7e54;
-    padding: 65px 0 65px 25px;
+/* Header styles */
 
+h1 {
+  color: blue (187, 71, 255);
 }
 
-header nav {
-    width: 800px;
-    float: right;
-    text-align: right;
-    padding: 75px 25px 75px 0;
-}
-nav ul li {
-    display: inline-block;
+h1.name {
+  margin-bottom: 0px;
+  border: 10px solid purple;
+  padding: 30px;
+  display: inline;
 }
 
-nav ul li a {
-    text-transform: uppercase;
-    font-size: 18px;
-    color: #727172;
-    padding-left: 80px;
-}
-header h2{
-    width: 100px; 
-    clear: both; 
-    font-family: 'Lora' serif;
-    font-size: 72px;
-    line-height: 80 px; 
-    color: #817f80;
-    padding: 20px 0 20px 25px; 
+h2 {
+  color: palevioletred;
 }
 
-
-/****** About Styles ******/
-#about.content-wrapper{ padding: 80px 0; }
-
-#about h2{
-    font-family:'Lora', serif ;
-    font-size: 36px;  
-    padding-left: 50px;
+h2.title {
+  margin-top: 40px;
+  padding: 30px;
 }
 
-about p{
-    float: left; 
-    width: 500px; 
-    font-size: 20px; 
-    line-height: 40px; 
-    padding:0  50px; 
+/* Contact styles */
 
+.phone-number {
+  color: DarkSeaGreen;
 }
 
-/****** Skill Styles ******/
-#skills {
-    background: f5f5f5;
-    text-align: center;
+a.email {
+  color: DarkSeaGreen;
+  text-decoration: none;
 }
 
-#skills 
-.content-wrapper {
-    padding: 115px 0;
+.line-break {
+  border: 1px solid grey;
+  margin: 30px auto;
+  width: 50%;
 }
 
-#skills .skill-list {
-    float: left;
-    width: 300px; 
-    padding: 0 50px; 
-}
-
-#skills h2 {
-    font-family: 'Lora', serif;
-    font-size: 36px; 
-    padding-bottom: 40px; 
-}
-
-#skills h3 {
-    font-size: 24px;
-    line-height: 36px;
-    margin: 30px 0 20px 0;
-}
-
-#skills p {
-    font-size: 20px; 
-    line-height: 40px; 
-    text-align: left;
-}
-
-/****** Contact Styles ******/
-#contact {
-    background: #f9e9e9;
-
-}
-
-#contact .content-wrapper{
-
-    padding: 110px 0;
-}
-#contact ,contact-image{
-    width: 500px;
-    height: 300px;
-    border: 12px solid #ffffff;
-    margin: 0 50px; 
-    box-sizing: border-box;    
-}
-
-#contact h2{
-    font-family: "Lora", serif;
-    font-weight: 600;
-    font-size: 36px;
-    margin: 30px 0;
-}
-
-#contact #email-header{
-    margin-bottom:  5px;   
-}
-#contact #socialmedia-header {
-    margin: 20px 0 5px 0;
-
+/* Quote Styles */
+.quote {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 50px;
+  line-height: 30px;
 }

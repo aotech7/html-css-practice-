@@ -1,93 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
-    <title> HOME PAGE </title>
-    <img src="images/justice.png" alt="Woman carrying scales of justice"
-    height="450px" width="650px"/>
-
-    <style>
-        h1 {
-            color: blue; font-size: 42px
-        }
-        h2{
-            color: green; font-size: 28px;
-        }
-        p { font-size: 30px}
-    </style>
+  <meta charset="UTF-8">
+  <title>Simple Business Card Website</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-    <!-- This is a comment -->
-<div>
-    <h1> Welcome To
-        The Legaltech Job Finder-
-    <h2>Your #1 Job Resource in Legal tech</h2>
-<hr>
-</div>
-    <h1 id="#top">Apply Here</h1>
-    <p> Submit your resume to our job bank. Recruiters visit our site frequently and contact candidate for interviews. Also, by submitting your resume, you will be notified to register for our quarterly virtual job fair. </p>
-    <hr>
-    
-<h1>Explore Our Job bank</h1>
-<form name="login" action= "process-form.php" method= "get">
-    Username:
-    <input type="text" name="username">
-    <br>
-    Password:
-    <input type="password" name="password">
-    <br>
-    <input type="submit">
-    <br>
-    <br>
-    Top Jobs: 
-    <br>
-    <select name="jobs"> 
-        <option value="Privacy Attorney">Privacy Attorney</option>
-        <option value="Legal Engineer">Legal Engineer</option>
-        <option value="Legal Prompt Engineer">Legal Prompt Engineer</option>
-        <option value="Legal Tech Consultant">Legal Tech Consultant</option>
-        </select>
-        <br>
-        <br>
-        Comments:
-        <br>
-        <textarea name ="comments" rows= "10" cols="30"> </textarea>
-        <br>
-        <input type="checkbox" name="experience" value= "Entry level"> I have 0-3 years of experience
-        <input type="checkbox" name= "experience" value= "Mid-level"> I have 3-5 years of experience
-        <input type="checkbox"  name= "experience" value="Senior"> I have 5-10 years or more of experience"
-        <input type="submit">
+  <div id="wrapper">
+    <h1 class="name">Angela O</h1>
+    <h2 class="title"> Legal Tech Engineer</h2>
+    <div class="line-break"></div>
 
-    
+    <p><span class="phone-number">(888) 555-3242</span> • 1234 Streetname St. • <a class="email"
+        href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
 
+    <div class="line-break"></div>
 
-    </select>
+    <p class="quote">Our Mission is to be the best that we can be <br>so that you can be the
+      best you can be. </p>
 
-</form>
-   
+  </div>
 
-    <hr>
-    <p>Check out our other pages: 
-   <!---a href is an attribute tells where link will go to "hypertext reference"--->
-
-    <h1> Job Postings <a href= "job-postings.html"></a></h1>
-    <br>
-    <p>This is our first paragraph</p>
-
-    <h1>Resume Upload <a href="upload.html"> here </a></h1>
-
-<h1> Other popular websites for legal jobs</h2>
-    <ul>
-        <p> <a href="https://www.indeed.com/"> Indeed</a></p>
-
-        </p>
-    </ul>
-    <h1>
-        Back home
-        <a href="index.html"> Home </a>
-        <p> <a href="#Top"> Top of page</a></p>
-    </h1>
-    
 </body>
 
 </html>
